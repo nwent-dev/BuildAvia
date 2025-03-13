@@ -45,6 +45,12 @@ struct OnboardingView: View {
                 .padding(.bottom, 30)
             }
         }
+        .onAppear {
+            UIDevice.current.setValue(UIInterfaceOrientation.portrait.rawValue, forKey: "orientation") // Forcing the rotation to portrait
+            AppDelegate.orientationLock = .landscape // And making sure it stays that way
+        }.onDisappear {
+            AppDelegate.orientationLock = .landscape // Unlocking the rotation when leaving the view
+        }
     }
 }
 
