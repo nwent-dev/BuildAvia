@@ -9,35 +9,35 @@ workflows:
       groups:
         - 1DEFAULT
       vars:
-        XCODE_PROJECT: "AviaWords.xcodeproj" #<----------------SET HERE
-        XCODE_SCHEME: "AviaWords" #<----------------SET HERE
+        XCODE_PROJECT: "BuildAvia.xcodeproj" #<----------------SET HERE
+        XCODE_SCHEME: "BuildAvia" #<----------------SET HERE
         CERTIFICATE_PRIVATE_KEY: |
             -----BEGIN RSA PRIVATE KEY-----
-            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
+            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
             -----END RSA PRIVATE KEY-----
         
     scripts:
@@ -47,7 +47,7 @@ workflows:
         script: keychain initialize
       - name: Fetch signing files for main target
         script: |
-          app-store-connect fetch-signing-files "com.vitaliiKovalchuk.AviaWords" \
+          app-store-connect fetch-signing-files "com.selimAhmed.BuildAvia" \
             --type IOS_APP_STORE \
             --create
       - name: Set up signing certificate
@@ -55,7 +55,7 @@ workflows:
       - name: Set up code signing settings on Xcode project
         script: xcode-project use-profiles
       - name: Set build number manually
-        script: agvtool new-version -all 2
+        script: agvtool new-version -all 1
       - name: Build ipa for distribution
         script: |
           xcode-project build-ipa \
@@ -64,7 +64,7 @@ workflows:
             --archive-xcargs "CODE_SIGN_STYLE=Auto"
       - name: Publish to App Store Connect
         script: |
-          app-store-connect publish --path "/Users/builder/clone/build/ios/ipa/AviaWords.ipa"
+          app-store-connect publish --path "/Users/builder/clone/build/ios/ipa/BuildAvia.ipa"
     
     artifacts:
       - build/ios/ipa/*.ipa
